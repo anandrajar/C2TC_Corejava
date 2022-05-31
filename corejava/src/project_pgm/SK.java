@@ -14,6 +14,7 @@ public class SK {
 		System.out.println("age is "+ob1.age);
 		System.out.println("age is "+ob2.age);
 
+
 	}
 
 }
