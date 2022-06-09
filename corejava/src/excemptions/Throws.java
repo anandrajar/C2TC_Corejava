@@ -1,16 +1,17 @@
 package excemptions;
 import java.io.IOException;
 
-public class Throws2 {
+public class Throws {
 	static void display()throws IOException
 	{
 		System.out.println("Hello java");
 		throw new IOException();
 	}
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Throws2 obj=new Throws2();
+		Throws obj=new Throws();
 		try {
 			obj.display();
 		}
